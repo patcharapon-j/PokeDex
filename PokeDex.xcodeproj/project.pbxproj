@@ -20,6 +20,7 @@
 		BA59E59E1E40C1F1005A06F0 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = BA59E59D1E40C1F1005A06F0 /* pokemon.csv */; };
 		BA59E5A31E40C27E005A06F0 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59E5A21E40C27E005A06F0 /* Pokemon.swift */; };
 		BA59E5A51E40C680005A06F0 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59E5A41E40C680005A06F0 /* PokeCell.swift */; };
+		BA5BABB01E4233DA006C3C44 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BABAF1E4233DA006C3C44 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BA59E59D1E40C1F1005A06F0 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		BA59E5A21E40C27E005A06F0 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		BA59E5A41E40C680005A06F0 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		BA5BABAF1E4233DA006C3C44 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				BA59E5711E40BEA6005A06F0 /* MainVC.swift */,
+				BA5BABAF1E4233DA006C3C44 /* DetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			files = (
 				BA59E5A51E40C680005A06F0 /* PokeCell.swift in Sources */,
 				BA59E5721E40BEA6005A06F0 /* MainVC.swift in Sources */,
+				BA5BABB01E4233DA006C3C44 /* DetailVC.swift in Sources */,
 				BA59E5701E40BEA6005A06F0 /* AppDelegate.swift in Sources */,
 				BA59E5A31E40C27E005A06F0 /* Pokemon.swift in Sources */,
 				BA40A9ED1E40CB3F00FD90D1 /* csv.swift in Sources */,
